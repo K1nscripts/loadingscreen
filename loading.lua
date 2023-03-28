@@ -197,10 +197,10 @@ local function FYJBOCX_fake_script() -- MainFrame.Manager
 	wait(10)
 	insidebar:TweenSize(UDim2.new(1,0,1,0), "In", "Linear", 20, true)
 	wait(40)
-	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(0,0,0,0), "InOut", "Quad", 3, true)
+	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(0,0,0,0), "InOut", "Quad", 30, true)
 	wait(6)
 	script.Parent.Visible = false
-	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(-1,0,0,0), "InOut", "Quad", 3, true)
+	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(-1,0,0,0), "InOut", "Quad", 30, true)
 	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
