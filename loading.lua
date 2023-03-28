@@ -31,7 +31,7 @@ local EndSequence = Instance.new("Frame")
 
 Loading.Name = "Loading"
 Loading.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Loading.ZIndexBehavior = Enum.ZIndexBehavior.Global
 Loading.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
