@@ -194,11 +194,11 @@ local function FYJBOCX_fake_script() -- MainFrame.Manager
 	local insidebar = bar.Bar2
 	local percentage = bar.Percentage
 	
-	wait(10)
+	wait(20)
 	insidebar:TweenSize(UDim2.new(1,0,1,0), "In", "Linear", 20, true)
 	wait(40)
 	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(0,0,0,0), "InOut", "Quad", 30, true)
-	wait(6)
+	wait(12)
 	script.Parent.Visible = false
 	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(-1,0,0,0), "InOut", "Quad", 30, true)
 	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
